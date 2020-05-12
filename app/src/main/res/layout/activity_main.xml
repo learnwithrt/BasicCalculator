@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/result_value"
+            android:textAlignment="textEnd"
+            android:textSize="35sp" />
+    </RelativeLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:padding="15dp"
+        app:columnCount="4"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/num1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num1"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num2"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num3"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opAdd"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num4"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num5"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num6"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num6"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/minus"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opMinus"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num7"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num7"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num8"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num8"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num9"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num9"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/multiply"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opMultiply"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/clear"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opClear"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/num0"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/num0"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/equal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opEquals"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/divide"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="4dp"
+            android:text="@string/opDivide"
+            android:textSize="25sp" />
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>
